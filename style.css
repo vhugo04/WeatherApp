@@ -132,7 +132,7 @@ body {
     margin-top: 35px;
   }
 }
-@media (min-width: 299px){
+@media (width <= 387px){
     .container {
         background: linear-gradient(135deg, #00feba, #5b548a);
         color: white;
