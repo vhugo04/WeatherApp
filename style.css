@@ -94,45 +94,8 @@ body {
   display: none;
 }
 
-@media (max-width: 480px){
-    .container {
-        background: linear-gradient(135deg, #00feba, #5b548a);
-        color: white;
-        width: 90%;
-        max-width: 370px;
-        margin: 100px auto;
-        padding: 30px 25px;
-        border-radius: 20px;
-        text-align: center;
-      }
-      .search input {
-        border: 0;
-        outline: 0;
-        background: #ebfffc;
-        color: #555;
-        padding: 10px 25px;
-        height: 60px;
-        border-radius: 30px;
-        flex: 1;
-        font-size: 14px;
-      }
-      .humidity,
-.wind {
-  font-size: 18px;
-  margin: -5px;
-}
-.info-icon {
-    width: 30px;
-    margin: 10px;
-  }
-  .info {
-    font-size: 12px;
-    margin: -5px;
-    padding: 0 10px;
-    margin-top: 35px;
-  }
-}
-@media (width <= 387px){
+
+@media (width <= 480px){
     .container {
         background: linear-gradient(135deg, #00feba, #5b548a);
         color: white;
