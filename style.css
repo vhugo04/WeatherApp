@@ -132,7 +132,7 @@ body {
     margin-top: 35px;
   }
 }
-@media (max-width: 385px){
+@media (min-width: 299px){
     .container {
         background: linear-gradient(135deg, #00feba, #5b548a);
         color: white;
@@ -153,10 +153,7 @@ body {
         border-radius: 30px;
         flex: 1;
         font-size: 14px;
-      }
-      .search button {
-        margin-left: 10px;
-
+        width: 50px;
       }
       .humidity,
 .wind {
